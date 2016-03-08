@@ -28,6 +28,8 @@ int main() {
 	binary_search(a, 0, a_length, target, location);
 
 	cout << "Location of " << target << ": " << location << endl;
+
+	return EXIT_SUCCESS;
 }
 
 void display_array(int *a, const int& length) {
